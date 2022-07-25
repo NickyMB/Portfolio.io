@@ -1,7 +1,132 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
-    Przykładowy tekst
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <title>Moje CV</title>
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <div class="Info">
+                <h4 class="Initial ">M | B</h4>
+                <h1 class="Name">Mikołaj Bacior</h1>
+                <div class="line">
+                    <hr>
+                    <h4 class="career">Front End Developer</h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="Contact">
+                <div class="Home">
+                    <i class="bi bi-geo-alt-fill myIcon"></i><br>
+                    <a href="https://goo.gl/maps/Lps5WawDwYW86pdP9" target="_blank">Katowicka 16, katowice</a>
+                </div>
+                <div class="lineY"></div>
+                <div class="Number">
+                    <i class="bi bi-telephone-fill myIcon"></i><br>
+                    <a href="tel:+48731633722">+48 731 633 722</a>
+                </div>
+                <div class="lineY"></div>
+                <div class="Mail">
+                    <i class="bi bi-envelope-fill myIcon"></i><br>
+                    <a href="mailto:mikolaj.bacior@outlook.com">mikolaj.bacior@outlook.com</a>
+                </div>
+            </div>
+        </header>
+        <div class="Wrapper">
+            <div class="Me">
+                <img src="./Images/20220126_151624.jpg" alt="Moje zdjęcie">
+                <h1>Edukacja</h1>
+                <div class="content">
+                    <school>Technikum Informatyczne</school>
+                    <date>Zespół Szkół Technicznych/Bytom/2022</date>
+                    <p class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum
+                        quibusdam porro hic, et deleniti illo! Labore odio, culpa voluptatum ipsam nemo iure. Tenetur,
+                        libero illo. Tempore temporibus esse vel.</p>
+                </div>
+                <div class="content">
+                    <school>Gimnazjum</school>
+                    <date>Nie Pamietam/Świętochłowice/2018</date>
+                    <p class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum
+                        quibusdam porro hic, et deleniti illo! Labore odio, culpa voluptatum ipsam nemo iure. Tenetur,
+                        libero illo. Tempore temporibus esse vel.</p>
+                </div>
+                <h1>Języki</h1>
+                <div class="Languages">
+                    <p class="Language">
+                        <label for="Eanglish">Eanglish</label><br>
+                        <progress class="Eanglish" min="0" max="100" value="80"></progress>
+                    </p>
+                    <p class="Language">
+                        <label for="Polish">Polish</label><br>
+                        <progress class="Polish" min="0" max="100" value="50"></progress>
+                    </p>
+                    <p class="Language">
+                        <label for="German">German</label><br>
+                        <progress class="German" min="0" max="100" value="5"></progress>
+                    </p>
+                    <p class="Language">
+                        <label for="Italian">Italian</label><br>
+                        <progress class="Italian" min="0" max="100" value="5"></progress>
+                    </p>
+                </div>
+            </div>
+            <div class="Rest">
+                <h1>Doświadczenie</h1>
+                <div class="content">
+                    <what>Praktyka zagraniczna</what>
+                    <where>Zinkloud/Hiszpania/2022</where>
+                    <p class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum
+                        quibusdam porro hic, et deleniti illo! Labore odio, culpa voluptatum ipsam nemo iure. Tenetur,
+                        libero illo. Tempore temporibus esse vel.</p>
+                </div>
+                <div class="content">
+                    <what>Praktyka w szkole</what>
+                    <where>Zespół Szkół Informatycznycg/Polska/2020</where>
+                    <p class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum
+                        quibusdam porro hic, et deleniti illo! Labore odio, culpa voluptatum ipsam nemo iure. Tenetur,
+                        libero illo. Tempore temporibus esse vel.</p>
+                </div>
+                <h1>Umiejętności</h1>
+                <div class="Abilities">
+                    <p class="Ability">
+                        <label for="studio">Visual studio code</label><br>
+                        <progress class="studio" min="0" max="100" value="90"></progress>
+                    </p>
+                    <p class="Ability">
+                        <label for="Photoshop">Adobe Photoshop</label><br>
+                        <progress class="Photoshop" min="0" max="100" value="60"></progress>
+                    </p>
+                    <p class="Ability">
+                        <label for="MYSQL">MYSQL</label><br>
+                        <progress class="MYSQL" min="0" max="100" value="70"></progress>
+                    </p>
+                    <p class="Ability">
+                        <label for="Team">Team Work</label><br>
+                        <progress class="Team" min="0" max="100" value="80"></progress>
+                    </p>
+                    <p class="Ability">
+                        <label for="Creativity">Creativity</label><br>
+                        <progress class="Creativity" min="0" max="100" value="100"></progress>
+                    </p>
+                    <p class="Ability">
+                        <label for="PHP">PHP</label><br>
+                        <progress class="PHP" min="0" max="100" value="80"></progress>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
